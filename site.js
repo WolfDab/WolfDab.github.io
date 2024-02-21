@@ -13,3 +13,6 @@ if (isMorning) {
 } else {
     time.textContent = "Good evening!";
 }
+
+// Add a secret message to localStorage
+localStorage.setItem("It's a secret to everybody", "The cake is a lie!"); // The key is "It's a secret to everybody" and the value is "The cake is a lie!"
